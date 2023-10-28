@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!-- link for merging file of css -->
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <!-- entry box for inputing the numbers -->
+        <div class="entry">
+            <input type="text" formaction="enter value" width="400px" value="naren">
+        </div>
+        <br>
+        <br>
+        <div class="btn">
+            <div class="row">
+                <!-- here we are placeing first row -->
+                <button class="num" value="AC"  onclick="clear()">AC</button>
+                <button class="num" value="2">&radic;</button>
+                <button class="num" value="3">/</button>
+                <button class="num" value="*">*</button>
+            </div>
+            <div class="row-2">
+                <!-- here we are placeing second row -->
+                <button class="num" value="1">1</button>
+                <button class="num" value="2">2</button>
+                <button class="num" value="3">3</button>
+                <button class="num" value="-">-</button>
+            </div>
+            <div class="row-3">
+                <!-- here we are placeing third row -->
+                <button class="num" value="4">4</button>
+                <button class="num" value="5">5</button>
+                <button class="num" value="6">6</button>
+                <button class="num" value="+">+</button>
+                
+            </div>
+            <div class="row-4">
+                <!-- here we are placeing fift  row -->
+                <button class="num" value="7">7</button>
+                <button class="num" value="8">8</button>
+                <button class="num" value="9">9</button>
+                <button class="num" value="%">%</button>
+                
+            </div>
+            <div class="row-5">
+                <!-- here we are placing sixth and final row -->
+                <button class="num" id="zero" value="0">0</button>
+                <button class="num" value=".">.</button>
+                <button class="num" value="=">=</button>
+            </div>
+            <br>
+            <!-- <div class="zero">
+                <button class="num" value="0">0</button>
+            </div> -->
+
+            <!-- <button class="num" value="1">1</button> -->
+
+
+        </div>
+
+    </div>
+    <!-- link created between html of calculator file to file of javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
