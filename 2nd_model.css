@@ -8,6 +8,16 @@
 
 
 }
+.history{
+    background-color: transparent;
+}
+.history img {
+    background-color: transparent;
+    margin: 20px 0 0 20px;
+    width: 30px;
+
+
+}
 .nav {
     display: flex;
     flex-direction: column;
@@ -63,6 +73,7 @@
     font-weight: 900;
 
 }
+
 .common{
     height: 100px;
     width: 100px;
