@@ -6,6 +6,46 @@
     height: 300px;
     background-color: yellow;
 
+
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+.nav h1{
+    background-color: transparent;
+
+}
+
+.entry1 input{
+    color: #d1d1cf;
+    background-color: transparent;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 592px;
+    height: 134px;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+    
+
+
+}
+
+.entry input{
+    color: #d1d1cf;
+    background-color: transparent;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 592px;
+    height: 71px;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+    
+    
 }
 .content {
     
@@ -31,6 +71,7 @@
 
 }
 .background3{
+    color: #d9d9d6;
     background-color: #515150;
 
 }
@@ -38,7 +79,7 @@
     background-color: transparent;
 
 }
-.row1{
+.row{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -50,8 +91,10 @@
 }
 .backgroud{
     background-color: #17181a;
+    color: #2c2d2d;
 }
 .background2 {
+    color: #d4d4d2;
     background-color: #ff9500;
 }
 .margin{
